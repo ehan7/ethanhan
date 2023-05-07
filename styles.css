@@ -35,13 +35,17 @@ header {
    margin-left: 20px;
    font-size: 13px;
    list-style: none;
-   text-decoration: none;
    font-size: 20px;
 }
 
 .navbar__item:first-of-type{
    margin-left: 0;
 }
+
+.navbar__links:hover{
+   color: #808080;
+}
+
 
 .content__description{
    width: 500px;

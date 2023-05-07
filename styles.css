@@ -1,0 +1,52 @@
+*{
+   font-family: sans-serif;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+}
+
+.navbar__title{
+   font-size: 22px;
+   font-weight: 400;
+}
+
+.navbar__menu{ /*when i change navbar link padding, why does logo move as well? */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   margin-right: 1000px; /* short term fix to bring tabs closer to logo */
+}
+
+.navbar__links{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   color: #000;
+   text-decoration: none;
+}
+
+.navbar__item{
+   margin-left: 20px;
+   font-size: 13px;
+   list-style: none;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.navbar__item:first-of-type{
+   margin-left: 0;
+}
+
+.content__description{
+   width: 500px;
+   line-height: 24px;
+   margin-left: 20px;
+   text-align: left;
+   margin-top: 0;
+}
